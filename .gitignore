@@ -1,0 +1,21 @@
+# Data (challenge datasets are not redistributed)
+student_resource/dataset/
+*.tsv
+*.parquet
+*.npz
+
+# Environment, caches, generated artefacts
+gpu_env/
+.cache/
+work/
+output/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local helper scripts (monitoring / keep-awake; not part of the solution)
+progress*.ps1
+progress.bat
+memlog.ps1
+keepawake.ps1
+Test.py
