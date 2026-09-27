@@ -1,0 +1,17 @@
+# Python 3.13 (Windows 11), versions used for the v9 submission
+polars==1.44.2
+pyarrow==25.0.1
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+lightgbm==4.7.0
+RapidFuzz==3.14.6
+sparse-dot-topn==1.2.0
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+huggingface_hub==1.33.0
+# GPU build of PyTorch (candidate search + cross-encoder):
+#   pip install torch==2.14.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+torch==2.14.0
